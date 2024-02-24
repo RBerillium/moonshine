@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_freetype.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_stdlib.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_toggle.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_toggle_palette.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_toggle_presets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_toggle_renderer.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{7eced598-a528-4987-a05b-76ed17a3fa4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unity">
+      <UniqueIdentifier>{4e726a18-f22b-451d-8e5a-ae3b7711eacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tarkov">
+      <UniqueIdentifier>{45b64b8d-f275-4bb2-890e-f2e764b2bd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{e67eccfa-96f8-4e68-8a86-2eb8201de54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{04429e05-a74d-48a2-b527-12a671121bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypt">
+      <UniqueIdentifier>{be24f97b-b0e4-4263-8997-56aca38905bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visual">
+      <UniqueIdentifier>{a3c28a6a-09d4-485c-9d1b-2921e19b3ab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main\memory_system.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\render_system.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\cache_system.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\unity_dictionary.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\unity_list.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\unity_array.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\unity_string.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\unity_transform.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\external_mono.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\vector2.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\vector3.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="unity\vector4.hpp">
+      <Filter>unity</Filter>
+    </ClInclude>
+    <ClInclude Include="main\file_system.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt\xor_string.hpp">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_freetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_hotkey.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_offset_rect.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_stdlib.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_toggle.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_toggle_math.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_toggle_palette.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_toggle_presets.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_toggle_renderer.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\offset.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\game.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\camera.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\world.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\application.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\effect_thermal_vision.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\effect_night_vision.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\effect_visor.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\exit.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\exit_controller.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\grenade_controller.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item_grid.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item_slot.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item_stack_slot.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item_weapon.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\item_template.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\api.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_body.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_firearm.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_hands.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_inventory.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_movement.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_physical.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_profile.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_skeleton.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_skills.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_weapon_animation.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\tarkov.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="visual\menu.hpp">
+      <Filter>visual</Filter>
+    </ClInclude>
+    <ClInclude Include="visual\visual.hpp">
+      <Filter>visual</Filter>
+    </ClInclude>
+    <ClInclude Include="visual\bind.hpp">
+      <Filter>visual</Filter>
+    </ClInclude>
+    <ClInclude Include="visual\image.hpp">
+      <Filter>visual</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_eft_player.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+    <ClInclude Include="tarkov\player_observed_player_view.hpp">
+      <Filter>tarkov</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
