@@ -63,7 +63,7 @@ namespace offset
 
 	namespace inventory
 	{
-		u64 inventory = 0x130;
+		u64 inventory = 0x138;
 		u64 inventory_equipment = 0x10;
 	}
 
@@ -83,15 +83,15 @@ namespace offset
 	{
 		u64 character = 0x28;
 
-		vec<u64> movement{ 0x80, 0xE8, 0x10 };//{ 0x80, 0xC0, 0x10 }; 
-		vec<u64> hands = { 0x80, 0xF8 }; //0xD0//!!
+		vec<u64> movement{ 0x80, 0xC8, 0x10 };//
+		vec<u64> hands = { 0x80, 0xD8 };//
 		u64 body = 0x60;
-		u64 physical = 0x530;
-		//u64 hands = 0x578;
-		u64 is_ai = 0x109; //0xf2;
-		u64 profile = 0x520;
-		vec<u64> inventory = { 0x80, 0x138 }; //0x110 //!!!
-		vec<u64> velocity = { 0x80, 0xE8, 0x10, 0xD8 }; //ObservedPlayerController.StateContext.Velocity PlayerController -> 0x10 shift -> StateContext.Velocity //{ 0x80, 0xC0, 0x10, 0xD8 }
+		vec<u64> inventory = { 0x80, 0x118 };
+
+		u64 is_ai = 0x109;
+
+		//vec<u64> inventory = { 0x80, 0x138 }; 
+		vec<u64> velocity = { 0x80, 0xC8, 0x10, 0xD8 }; //ObservedPlayerController.StateContext.Velocity PlayerController -> 0x10 shift -> StateContext.Velocity //{ 0x80, 0xC0, 0x10, 0xD8 }
 		//u64 pwa = 0x1a0;
 
 

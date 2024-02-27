@@ -30,15 +30,7 @@ namespace observer_player_view
 		return memory::read<u64>(player, offset::observed_player_view::inventory);
 	}
 
-	u64 get_profile(u64 player)
-	{
-		return memory::read<u64>(player + offset::observed_player_view::profile);
-	}
 
-	u64 get_physical(u64 player)
-	{
-		return memory::read<u64>(player + offset::observed_player_view::physical);
-	}
 	//u64 get_pwa(u64 player)
 	//{
 	//	return memory::read<u64>(player + offset::observed_player_view::pwa);

@@ -555,7 +555,7 @@ void thread_0()
 	spoof_thread();
 	auto umid = skCrypt(L"\\SystemRoot\\Usermode");
 	INT UMID = ReadVarFromFile(umid, 10);
-	PsLookupProcessByProcessId((HANDLE)UMID, &SETTINGS::PeUM);
+	PsLookupProcessByProcessId((HANDLE)UMID, &SETTINGS::PeUM); // Dereference
 	auto packet_string = skCrypt(L"\\SystemRoot\\Packet_0");
 	SETTINGS::PacketAddress = ReadVarFromFile(packet_string, 16);
 	umid.clear();

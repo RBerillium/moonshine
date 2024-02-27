@@ -717,7 +717,7 @@ namespace cache_system
 
 					buffer_item.type = loot_type_t::container;
 
-					u64 container = memory::read<u64>(object, { 0x10, 0x28, 0x110, 0xc0 });
+					u64 container = memory::read<u64>(object, { 0x10, 0x28, 0x120, 0xc0 });
 
 					u64 lootable = memory::read<u64>(object, { 0x10, 0x28, 0xfe });
 
@@ -917,11 +917,11 @@ namespace cache_system
 
 								for (u64 item : items)
 								{
-								
+
 
 									if (item)
 									{
-									
+
 										str item_id = unity_string::to_str(item_template::get_item_id(item::get_template(item)));
 
 
